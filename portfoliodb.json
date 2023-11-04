@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "message": [
+    {
+      "name": "sdfldsf",
+      "phone": "sdflkdsflk",
+      "sub": "sdfkljsdklfj",
+      "msg": "dsklfjsdklfds",
+      "id": 1
+    },
+    {
+      "name": "asflsflskd",
+      "phone": "sdfkldsfsk",
+      "sub": "dsklfjsdfsk",
+      "msg": "dsskjewreiurewiurnpfudsn isdunf sufn sdflrere sjfjd s",
+      "id": 2
+    },
+    {
+      "name": "sujit",
+      "phone": "444646564664",
+      "sub": "fsdfjkdskjl",
+      "msg": "LKDSFKLDSKLFJSKLDJFLKSJFSD",
+      "id": 3
+    }
+  ]
+}
