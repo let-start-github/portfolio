@@ -48,4 +48,45 @@ async function send(){
     let data=await res.json()
 }
 
+const action=(e)=>{
+
+
+    if(e === "logo-linkedin"){
+        
+        window.open("https://linkedin.com/in/arabinda-nayak")
+    }
+    else if(e === "logo-github"){
+        window.open("https://github.com/let-start-github")
+    }
+    else if(e === "logo-instagram"){
+        window.open("https://www.instagram.com/____mr_._____perfect______8817/?igshid=Nm9lOWRoaWMyYXZk")
+    }
+    else if(e==="mail"){
+        window.open("gmailto:arabindanayak250@gmail.com")
+    }
+    
+   
+   
+   
+
+    
+}
+
+
+const text = document.querySelector(".sec-text");
+
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "FullStack Developer";
+            }, 0);
+            setTimeout(() => {
+              text.textContent = "Youtuber";
+            }, 4000);
+            setTimeout(() => {
+              text.textContent = "Web Designer";
+            }, 8000); 
+        }
+
+        textLoad();
+        setInterval(textLoad, 12000);
 

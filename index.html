@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/mystyle.css">
-    <link href="./css/bootstrap.min.css" rel="stylesheet" >
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.bundle.js"></script>
     <style>
         body {
@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    
+
     <!--navbar start-->
     <div>
 
@@ -65,17 +65,17 @@
                     <div class="icon">
 
                         <span class="navbar-text text-white p-lg-2  ">
-                            <ion-icon name="logo-linkedin" class="myicon1"></ion-icon>
+                            <ion-icon name="logo-linkedin" class="myicon1" onclick="action(name)" id="icon"></ion-icon>
                         </span>
 
                         <span class="navbar-text text-white p-lg-2  ">
-                            <ion-icon name="logo-github" class="myicon2"></ion-icon>
+                            <ion-icon name="logo-github" class="myicon2" id="icon" onclick="action(name)"></ion-icon>
                         </span>
                         <span class="navbar-text text-white p-lg-2  ">
-                            <ion-icon name="logo-instagram" class="myicon3"></ion-icon>
+                            <ion-icon name="logo-instagram" class="myicon3" id="icon" onclick="action(name)"></ion-icon>
                         </span>
                         <span class="navbar-text text-white p-lg-2 ">
-                            <ion-icon name="logo-facebook" class="myicon4"></ion-icon>
+                            <ion-icon name="logo-facebook" class="myicon4" id="icon" onclick="action(name)"></ion-icon>
                         </span>
 
                     </div>
@@ -91,17 +91,25 @@
         <div class="intro m-sm-5">
             <h3 style="font-size: 2.5rem;">Hello ,It's Me</h3>
             <h1 style="font-size: 4rem;font-weight:bold;">Arabinda Nayak</h1>
-            <h3 style="font-size: 2rem;">And I'm a<span> Frontend Devloper</span></h3>
-            <p style="font-size: 1.2rem;color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis tempore distinctio, laborum nostrum rem
-                provident nam rerum amet autem, itaque alias consequuntur excepturi mollitia commodi numquam obcaecati,
-                maxime debitis explicabo!</p>
-                <div class="social-media">
-                    <a href=""><ion-icon name="logo-linkedin" class="linkedin"></ion-icon></a>
-                    <a href=""><ion-icon name="logo-github" class="github" ></ion-icon></a>
-                    <a href=""><ion-icon name="logo-instagram" class="insta"></ion-icon></a>
-                    <a href=""><ion-icon name="logo-facebook" class="fb" ></ion-icon></a>
-                </div>
-                <a href="./Arabinda.docx" class="mybtn">DOWNLOAD CV</a>
+            <!-- <h3 style="font-size: 2rem;">I'm a<span class="sec-text text"> </span></h3> -->
+            <div class="container2">
+                <h3 class="text first-text">I'm </h3>
+                <span class="text sec-text"></span>
+            </div>
+            <p style="font-size: 1.2rem;color:white;">My objective is simply to be the best web developer that I can be
+                and to contribute to the technology industry all that I know and can do. I am dedicated to perfecting my
+                craft by learning from more seasoned developers, remaining humble, and continuously making strides to
+                learn all that I can about development.</p>
+            <div class="social-media">
+                <a href="https://linkedin.com/in/arabinda-nayak" target="_blank"><ion-icon name="logo-linkedin"
+                        class="linkedin"></ion-icon></a>
+                <a href="https://github.com/let-start-github" target="_blank"><ion-icon name="logo-github"
+                        class="github"></ion-icon></a>
+                <a href="https://www.instagram.com/____mr_._____perfect______8817/?igshid=Nm9lOWRoaWMyYXZk"
+                    target="_blank"><ion-icon name="logo-instagram" class="insta"></ion-icon></a>
+                <a href="" target="_blank"><ion-icon name="logo-facebook" class="fb"></ion-icon></a>
+            </div>
+            <a href="./Arabinda.docx" class="mybtn">DOWNLOAD CV</a>
         </div>
         <div class="img-container mainimg">
             <img src="./image/sketch1687094983802.jpg" class="myimg img-fluid ps-sm-5" alt="">
@@ -119,8 +127,18 @@
                     <p class="text-white-50 text_light">LinkedIn- linkedin/arabinda-nayak/</p>
                     <p class="text-white-50 text_light">insta- mrperfect8817</p>
                 </div>
-                <div>
-                    <h1 class="text-white-50">about</h1>
+                <div class="quick-links">
+                    <h1 class="text-white-50">Quick Links</h1>
+                    <a href="https://www.youtube.com/channel/UCGFH1--56aEKE2A8Y8GH1lA" class="quick-link-link"
+                        target="_blank">My Channel</a>
+                    <a href="" class="quick-link-link" target="_blank">Learn Frontend</a>
+                    <a href="" class="quick-link-link" target="_blank">Learn Backend</a>
+                    <a href="" class="quick-link-link" target="_blank">Learn Database</a>
+                    <a href="https://youtu.be/M5Vk54kJnTU?si=TOjR8Ab3RtmAf_vv" class="quick-link-link"
+                        target="_blank">Learn C Programming</a>
+                    <a href="https://youtu.be/UTIt1RGyufw?si=T-lxkVVLop3IdyY0" class="quick-link-link"
+                        target="_blank">Learn Operating System</a>
+                    <a href="" class="quick-link-link" target="_blank">Learn Python</a>
                 </div>
                 <div>
                     <h1 class="text-white-50">my hobbie</h1>
@@ -129,9 +147,15 @@
         </footer>
     </div>
     <!--footerend-->
+
+    <audio autoplay loop>
+        <source src="./Tauba_-_8D_Audio__Payal_Dev__Badshah__Malavika_Mohanan__Surround_sound__HQ(256k).mp3"
+            type="audio/mp3">
+    </audio>
 </body>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="./js/script.js"></script>
+
 </html>
 <!-- <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script> -->
 
@@ -139,8 +163,7 @@
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <script>
-    const action=()=>{
-        let element=document.querySelector('#icon').value
-        console.log(element)
-    }
+
+
+
 </script>

@@ -22,6 +22,7 @@
               letter-spacing: .2rem;
           
       }
+      
     </style>
 </head>
 <body>
@@ -54,19 +55,19 @@
                   </li>
                 </ul>
                 <div class="icon">
-                  <span class="navbar-text text-white p-lg-2 icon">
-                      <ion-icon name="logo-linkedin" class="myicon1"></ion-icon>
-                  </span>
+                  <span class="navbar-text text-white p-lg-2  ">
+                    <ion-icon name="logo-linkedin" class="myicon1" onclick="action(name)" id="icon" ></ion-icon>
+                </span>
 
-                  <span class="navbar-text text-white p-lg-2  icon">
-                      <ion-icon name="logo-github" class="myicon2"></ion-icon>
-                  </span>
-                  <span class="navbar-text text-white p-lg-2  icon">
-                      <ion-icon name="logo-instagram" class="myicon3"></ion-icon>
-                  </span>
-                  <span class="navbar-text text-white p-lg-2 icon">
-                      <ion-icon name="logo-facebook" class="myicon4"></ion-icon>
-                  </span>
+                <span class="navbar-text text-white p-lg-2  ">
+                    <ion-icon name="logo-github" class="myicon2" id="icon" onclick="action(name)"></ion-icon>
+                </span>
+                <span class="navbar-text text-white p-lg-2  ">
+                    <ion-icon name="logo-instagram" class="myicon3" id="icon" onclick="action(name)"></ion-icon>
+                </span>
+                <span class="navbar-text text-white p-lg-2 ">
+                    <ion-icon name="logo-facebook" class="myicon4" id="icon" onclick="action(name)"></ion-icon>
+                </span>
 
               </div>
                 
@@ -82,18 +83,18 @@
     <div class="row container-fluid" style="display: flex; justify-content:space-between;">
       <div class="col-sm-4 contactitem">
         <span class="icon1">
-          <ion-icon name="logo-whatsapp" class="insta" style="color:rgb(0, 167, 11);" ></ion-icon>        </span>
-        <h2 class="contact">+91 7205119203</h2>
+          <ion-icon name="logo-whatsapp" class="insta" style="color:rgb(0, 167, 11);" onclick="action(name)"></ion-icon>        </span>
+        <h2 class="contact"><a href="tel:+91 7205 11 9203">7205119203</a></h2>
       </div>
       <div class="col-sm-4 contactitem"  >
         <span class="icon1">
-          <ion-icon name="mail" class="insta" style="color:rgb(167, 0, 0);"></ion-icon>
+          <ion-icon name="mail" class="insta" style="color:rgb(167, 0, 0);" onclick="action(name)"></ion-icon>
         </span>
         <h2 class="contact">arabindanayak250@gmail.com</h2>
       </div>
       <div class="col-sm-4 contactitem"  >
         <span class="icon1">
-          <ion-icon name="logo-instagram" class="insta" style="color:rgb(250, 10, 170);"></ion-icon>
+          <ion-icon name="logo-instagram" class="insta" style="color:rgb(250, 10, 170);" onclick="action(name)"></ion-icon>
         </span>
         <h2 class="contact">___mr.perfect__8817___</h2>
       </div>
@@ -128,22 +129,29 @@ placeholder="Enter Your Message "  class="m-sm-4 form-control from" id="msg"></t
     </div>
     <div>
       <footer class="bg-info bg-opacity-10 navbar">
-          <div class="container-fluid m-lg-3">
-              <div>
-                  <h1 style="margin-bottom:20px;" class="text-white-50 text_light">contact</h1>
-                  <p class="text-white-50 text_light">Ph- +91 7205119203</p>
-                  <p class="text-white-50 text_light">Email- arabindanayak250@gmail.com</p>
-                  <p class="text-white-50 text_light">LinkedIn- linkedin/arabinda-nayak/</p>
-                  <p class="text-white-50 text_light">insta- mrperfect8817</p>
-              </div>
-              <div>
-                  <h1 class="text-white-50">about</h1>
-              </div>
-              <div>
-                  <h1 class="text-white-50">my hobbie</h1>
-              </div>
-          </div>
-      </footer>
+        <div class="container-fluid m-lg-3">
+            <div>
+                <h1 style="margin-bottom:20px;" class="text-white-50 text_light">contact</h1>
+                <p class="text-white-50 text_light">Ph- +91 7205119203</p>
+                <p class="text-white-50 text_light">Email- arabindanayak250@gmail.com</p>
+                <p class="text-white-50 text_light">LinkedIn- linkedin/arabinda-nayak/</p>
+                <p class="text-white-50 text_light">insta- mrperfect8817</p>
+            </div>
+            <div class="quick-links">
+                <h1 class="text-white-50">Quick Links</h1>
+                <a href="https://www.youtube.com/channel/UCGFH1--56aEKE2A8Y8GH1lA" class="quick-link-link" target="_blank">My Channel</a>
+                <a href="" class="quick-link-link" target="_blank">Learn Frontend</a>
+                <a href="" class="quick-link-link" target="_blank">Learn Backend</a>
+                <a href="" class="quick-link-link" target="_blank">Learn Database</a>
+                <a href="https://youtu.be/M5Vk54kJnTU?si=TOjR8Ab3RtmAf_vv" class="quick-link-link" target="_blank">Learn C Programming</a>
+                <a href="https://youtu.be/UTIt1RGyufw?si=T-lxkVVLop3IdyY0" class="quick-link-link" target="_blank">Learn Operating System</a>
+                <a href="" class="quick-link-link" target="_blank">Learn Python</a>
+            </div>
+            <div>
+                <h1 class="text-white-50">my hobbie</h1>
+            </div>
+        </div>
+    </footer>
   </div>
 </body>
 <script src="https://unpkg.com/scrollreveal"></script>
