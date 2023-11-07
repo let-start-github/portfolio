@@ -99,31 +99,31 @@
         <h2 class="contact">___mr.perfect__8817___</h2>
       </div>
     </div>
-    <div class="container myform m-sm-5 p-sm-2">
-      <!-- <form action="" class=" form-group myform m-sm-5 p-sm-2" onsubmit="send()"> -->
+    <div class="container m-sm-5">
+      <form action="https://formspree.io/f/xrgwdowg" class=" form-group myform m-sm-5 p-sm-2" method="POST">
       
         <span class="m-sm-3 text-danger " style="font-size: 3rem; font-weight:bold;padding-left:3rem">SEND MESSAGE</span>
         <div class="form-control-row p-sm-2">
-          <input type="text" placeholder="Enter your name" class="form-control-lg mx-sm-4" id="username" required>
+          <input type="text" placeholder="Enter your name" name="Name" class="form-control-lg mx-sm-4" id="username" required>
 
-          <input type="text" placeholder="Enter your number" class="form-control-lg mx-sm-5" id="userphone" required>
+          <input type="text" placeholder="Enter your Email" name="Email" class="form-control-lg mx-sm-5" id="userphone" required>
           
-          <input type="text" placeholder="Message Subject  " class="form-control-lg mx-sm-4" id="msgsub" required>
+          <input type="text" placeholder="Message Subject " name="Subject" class="form-control-lg mx-sm-4" id="msgsub" required>
         <!-- </div> -->
         
       <!-- <div class="form-row p-sm-4"> -->
-<textarea name="" cols="30" rows="10"
+<textarea name="" cols="30" rows="10" name="Message"
 placeholder="Enter Your Message "  class="m-sm-4 form-control from" id="msg"></textarea>
       </div>
           
           <div class="p-sm-3">
-            <button class="mybtn " onclick="send()" >Send Message</button>
+            <button class="mybtn " type="submit">Send Message</button>
           </div>
         <script></script>
           
         
 
-      <!-- </form> -->
+      </form>
     </div>
 
     </div>
